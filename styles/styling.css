@@ -1,0 +1,33 @@
+body {
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: orangered;
+}
+hr {
+  background-color: orangered;
+}
+
+.todayDate {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: right;
+  font-family: "Dancing Script", cursive;
+}
+.weatherCard {
+  text-align: center;
+}
+.weatherHeader {
+  background-color: rgb(255, 69, 0, 0.4);
+  font-size: 32px;
+}
+#units {
+  font-size: medium;
+  position: relative;
+  top: -10px;
+}
