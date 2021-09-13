@@ -48,7 +48,7 @@ function searchCityByName(event) {
   //console.log("place:" + place);
   let apiKey = "49d8c99dff260bd8e2a249b94e59247d";
   let units = "metric";
-  let apiUrl = `https:api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=${units}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=${units}`;
 
   if (place != "") {
     //console.log("city is not null");
