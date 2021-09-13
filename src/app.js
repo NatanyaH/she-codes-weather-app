@@ -93,6 +93,7 @@ function displayWeather(response) {
 
   //get weather details
   let temperature = Math.round(response.data.main.temp);
+  console.log(response.data.main.temp);
   let humidity = response.data.main.humidity;
   let city = response.data.name;
   let weatherDescription = response.data.weather[0].main;
